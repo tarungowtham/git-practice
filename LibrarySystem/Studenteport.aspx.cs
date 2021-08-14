@@ -57,6 +57,8 @@ public partial class Studenteport : System.Web.UI.Page
             lbl.Text = GridView1.Rows.Count.ToString() + " Student Found.";
         }
     }
+
+    
     protected void GridView1_RowCommand(object sender, GridViewCommandEventArgs e)
     {
         MultiView1.ActiveViewIndex = 1;
